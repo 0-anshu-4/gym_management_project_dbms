@@ -51,6 +51,8 @@ gymdb
 
 The database follows a **normalized relational design**, separating entities and relationship tables to reduce redundancy and improve data integrity.
 
+![Gym Management System – Relational Schema](SCHEMA.jpeg)
+
 ### Member → Trainer
 
 ```text
@@ -289,7 +291,7 @@ Gym-Management-System/
 │
 ├── README.md
 ├── gym_management.sql
-└── ER_Diagram.png
+└── SCHEMA.jpeg
 ```
 
 ---
@@ -312,4 +314,3 @@ Gym-Management-System/
 ## 🎯 Project Summary
 
 The project demonstrates the design and implementation of a **normalized relational database for gym operations**, combining structured entity modeling with database-level business logic. It uses **13+ interconnected tables, stored procedures, functions, triggers, complex JOINs, and reporting queries** to provide a maintainable foundation for membership, trainer, workout, and payment management.
-
